@@ -69,6 +69,15 @@
   font-style: normal;
   color: orange;
 }
+.about-print-specifier {
+  color: rgb(143, 184, 30);
+}
+.about-print-message {
+  color: green;
+}
+.about-me {
+  font-size: 18px;
+}
 
 * {
   box-sizing: border-box;
