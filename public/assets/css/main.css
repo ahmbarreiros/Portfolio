@@ -163,6 +163,33 @@
   margin: 0;
 }
 
+@media screen and (max-width: 430px) {
+  .header-comment {
+    margin: 0 20px 10px 0;
+    color: #606060;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header-comment {
+    margin: 0 0px 10px 0;
+    font-size: 15px;
+    color: #606060;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header-comment {
+    margin: 0 10px 10px 0;
+    font-size: 12.3px;
+    color: #606060;
+  }
+  .header .header-nav-bar {
+    flex-wrap: wrap;
+  }
+  .header .header-nav-bar-link {
+    padding: 0 35px 0 35px;
+    margin: 5px auto;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
