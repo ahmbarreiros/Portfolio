@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:ital@0;1&display=swap");
+.header {
+  background-color: #eee;
+  color: #161616;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  font-family: "Roboto Slab";
+}
+.header-comment {
+  margin: 0 35px 10px 0;
+  color: #606060;
+}
+.header .header-nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+.header .header-nav-bar-link {
+  border: 1px solid #161616;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: #161616;
+  cursor: cell;
+}
+.header .header-nav-bar-link .my-email {
+  font-size: 13px;
+}
+.header .header-nav-bar-link:hover {
+  background-color: #606060;
+  border: 1px solid #606060;
+  color: #ddd;
+  transition: 0s;
+}
+.header .header-nav-bar-link:hover > *,
+.header .header-nav-bar-link:hover .my-email {
+  background-color: #606060;
+  transition: 0s;
+}
+.header .header-nav-bar-link p {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.about {
+  width: 100vw;
+  text-align: center;
+  margin: 0px auto;
+  padding: 0 10px 0 10px;
+  color: #606060;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.about-name {
+  font-style: italic;
+}
+.about-name-macro {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  color: orangered;
+}
+.about-name-myName {
+  font-style: normal;
+  color: orange;
+}
+.about-print-specifier {
+  color: rgb(143, 184, 30);
+}
+.about-print-message {
+  color: green;
+}
+.about-me {
+  text-align: center;
+  font-size: 16px;
+}
+.about-me-type {
+  color: orangered;
+}
+.about-me-variable {
+  color: rgb(158, 104, 5);
+}
+
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.projects > h4 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #161616;
+}
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  flex-wrap: wrap;
+}
+.projects-container-project {
+  margin: 10px;
+  width: 15rem;
+  min-height: 35vh;
+  max-height: 35vh;
+  background-color: #161616;
+  color: #ddd;
+  box-shadow: 2px 9px 47px -10px rgba(0, 0, 0, 0.75);
+}
+.projects-container-project > * {
+  background-color: #161616;
+}
+.projects-container-project .card-body {
+  background-color: #161616;
+}
+.projects-container-project .card-body .card-title {
+  background-color: #161616;
+}
+.projects-container-project .card-body .python {
+  background-color: #161616;
+  color: lightblue;
+  padding: 0 0 3px 0;
+  border-bottom: 1px solid lightblue;
+}
+.projects-container-project .card-body .csharp {
+  background-color: #161616;
+  color: lightgreen;
+  padding: 0 0 3px 0;
+  border-bottom: 1px solid lightgreen;
+}
+.projects-container-project .card-body .react-js {
+  background-color: #161616;
+  color: rgb(228, 148, 228);
+  padding: 0 0 3px 0;
+  border-bottom: 1px solid rgb(228, 148, 228);
+}
+.projects-container-project .card-body .php {
+  background-color: #161616;
+  color: lightcyan;
+  padding: 0 0 3px 0;
+  border-bottom: 1px solid lightcyan;
+}
+.projects-container-project .card-body .card-text {
+  background-color: #161616;
+  font-weight: bolder;
+}
+.projects-container-project .card-body .btn-group {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+.projects-container-project .card-body .btn-group .btn {
+  margin: 0;
+}
+
+@media screen and (max-width: 430px) {
+  .header-comment {
+    margin: 0 20px 10px 0;
+    color: #606060;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header-comment {
+    margin: 0 0px 10px 0;
+    font-size: 15px;
+    color: #606060;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header-comment {
+    margin: 0 10px 10px 0;
+    font-size: 12.3px;
+    color: #606060;
+  }
+  .header .header-nav-bar {
+    flex-wrap: wrap;
+  }
+  .header .header-nav-bar-link {
+    padding: 0 35px 0 35px;
+    margin: 5px auto;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  scroll-behavior: smooth;
+  background-color: #eee;
+}
+
+main {
+  width: 100vw;
+  height: 80vh;
+}/*# sourceMappingURL=main.css.map */
