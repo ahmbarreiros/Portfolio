@@ -1,0 +1,39 @@
+.about {
+    width: 100vw;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0 10px 0 10px;
+    color: #606060;
+    font-family: "Roboto";
+    font-weight: 400;
+    &-name {
+        font-style: italic;
+        &-macro {
+            font-family: "Roboto Slab";
+            font-style: normal;
+            color: orangered;
+        }
+        &-myName {
+            font-style: normal;
+            color: orange;
+        }
+    }
+    &-print {
+        &-specifier {
+            color: rgb(143, 184, 30);
+        }
+        &-message {
+            color: green;
+        }
+    }
+    &-me {
+        text-align: center;
+        font-size: 16px;
+        &-type {
+            color: orangered;
+        }
+        &-variable {
+            color: rgb(158, 104, 5);
+        }
+    }
+}
