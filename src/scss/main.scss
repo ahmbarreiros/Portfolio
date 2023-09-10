@@ -1,5 +1,6 @@
 @use "Header" as *;
 @use "About" as *;
+@use "Projects" as *;
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:ital@0;1&display=swap");
 
 * {
@@ -13,6 +14,6 @@
 }
 
 main {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 80vh;
 }

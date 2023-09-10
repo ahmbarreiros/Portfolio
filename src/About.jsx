@@ -13,21 +13,22 @@ const About = () => {
                 " );
             </h4>
             <p className="about-me">
-                /* I am a fullstack developer, currently studying Computer
-                Science at{" "}
+                <span className="about-me-type">char</span>*{" "}
+                <span className="about-me-variable">MyDescription</span> = "I am
+                a fullstack developer, currently studying Computer Science at{" "}
                 <a href="" alt="UERJ site">
                     Universidade do Estado do Rio de Janeiro (UERJ)
                 </a>
                 , Brazil.
                 <br></br>I also have a technical degree in Administration at
-                CEPAMTF
+                CEPAMTF.
                 <br></br>
                 My knowledge crosses from web technologies to databases, game
                 development, low-level programming and some digital forensics.
                 <br></br>
                 My favorite language is C, but I know other languages too!
                 <br></br>I am currently looking for an internship or
-                junior/trainee software developer roles! */
+                junior/trainee software developer roles!"
             </p>
         </section>
     );

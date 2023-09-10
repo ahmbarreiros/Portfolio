@@ -9,7 +9,7 @@
     font-family: "Roboto Slab";
 
     &-comment {
-        margin: 0 120px 10px 0;
+        margin: 0 35px 10px 0;
         color: #606060;
     }
 
@@ -28,12 +28,18 @@
             flex-wrap: wrap;
             padding: 10px;
             margin: 0 10px 0 10px;
+
+            .my-email {
+                font-size: 13px;
+            }
+
             &:hover {
                 background-color: #606060;
                 border: 1px solid #606060;
                 color: #ddd;
                 transition: 0s;
-                & > * {
+                & > *,
+                .my-email {
                     background-color: #606060;
                     transition: 0s;
                 }

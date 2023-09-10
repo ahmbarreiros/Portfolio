@@ -27,6 +27,13 @@
         }
     }
     &-me {
-        font-size: 18px;
+        text-align: center;
+        font-size: 16px;
+        &-type {
+            color: orangered;
+        }
+        &-variable {
+            color: rgb(158, 104, 5);
+        }
     }
 }
