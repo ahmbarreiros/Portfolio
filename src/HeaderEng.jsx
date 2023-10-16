@@ -65,7 +65,7 @@ const Header = () => {
                         </p>
                     </a>
                     <a
-                        href="https://docs.google.com/document/d/e/2PACX-1vQVmkPTmJ5nZotYlMTLbaiPFHV3sVZvrF9eXWLDC4zYcs98H2BqhUGuf72JGyipbN09GI0brGJdPJeK/pub"
+                        href="https://docs.google.com/document/d/e/2PACX-1vSDFyhxwDEEneKVVfohA2hBMdhdFW_bFkEvoZOrnEXr1N8R7AjILwpqT1bQF5Bsq3ywJ-Thf78Sgwdz/pub"
                         className="header-nav-bar-link"
                         target="_blank"
                     >
