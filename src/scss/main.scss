@@ -18,3 +18,53 @@ main {
     width: 100vw;
     height: 80vh;
 }
+
+.language {
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    color: #161616;
+    font-family: "Roboto Slab";
+    &:hover {
+        background-color: #606060;
+        border: 1px solid #606060;
+        color: #ddd;
+        transition: 0s;
+        & > * {
+            background-color: #606060;
+            transition: 0s;
+        }
+    }
+    p {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+    text-decoration: none;
+    color: #161616;
+}
+
+.ptbr:hover,
+.ptbr.active {
+    background-color: #035703be;
+    border: 1px solid #035703be;
+    color: #d9ff00;
+    transition: 0s;
+    & > * {
+        background-color: #d9ff00;
+        transition: 0s;
+    }
+}
+
+.eng:hover,
+.eng.active {
+    background-color: #6d4566;
+    border: 1px solid #6d4566;
+    color: #ffffff;
+    transition: 0s;
+}

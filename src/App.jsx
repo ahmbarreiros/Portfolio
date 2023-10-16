@@ -1,19 +1,51 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 // import "./App.css";
-import Header from "./Header";
-import About from "./About";
-import Projects from "./Projects";
+import AppEng from "./AppEng";
+import AppPtBr from "./AppPtBr";
 
 function App() {
+    const [language, setLanguage] = useState("PtBr");
+
+    const toggleLanguage = (language) => {
+        setLanguage(language);
+    };
+
+    const toggleActive = (event) => {
+        const button = event.target;
+        console.log(button);
+        const buttons = document.querySelectorAll(".language");
+
+        buttons.forEach((btn) => {
+            btn.classList.remove("active");
+        });
+        button.classList.add("active");
+    };
+
     return (
         <>
-            <Header />
-            <main>
-                <About />
-                <Projects />
-            </main>
+            <div className="languages">
+                <button
+                    className="language ptbr active"
+                    onClick={(event) => {
+                        toggleLanguage("PtBr");
+                        toggleActive(event);
+                    }}
+                >
+                    Português - Brasil
+                </button>
+                <button
+                    className="language eng"
+                    onClick={(event) => {
+                        toggleLanguage("Eng");
+                        toggleActive(event);
+                    }}
+                >
+                    English
+                </button>
+            </div>
+
+            {language == "Eng" ? <AppEng /> : null}
+            {language == "PtBr" ? <AppPtBr /> : null}
         </>
     );
 }

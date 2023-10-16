@@ -42,7 +42,8 @@
   transition: 0s;
 }
 .header .header-nav-bar-link:hover > *,
-.header .header-nav-bar-link:hover .my-email {
+.header .header-nav-bar-link:hover .my-email,
+.header .header-nav-bar-link:hover .my-curriculum {
   background-color: #606060;
   transition: 0s;
 }
@@ -140,15 +141,21 @@
 }
 .projects-container-project .card-body .react-js {
   background-color: #161616;
-  color: rgb(228, 148, 228);
+  color: rgb(194, 122, 236);
   padding: 0 0 3px 0;
-  border-bottom: 1px solid rgb(228, 148, 228);
+  border-bottom: 1px solid rgb(194, 122, 236);
 }
 .projects-container-project .card-body .php {
   background-color: #161616;
   color: lightcyan;
   padding: 0 0 3px 0;
   border-bottom: 1px solid lightcyan;
+}
+.projects-container-project .card-body .cpp {
+  background-color: #161616;
+  color: rgb(233, 117, 223);
+  padding: 0 0 3px 0;
+  border-bottom: 1px solid rgb(233, 117, 223);
 }
 .projects-container-project .card-body .card-text {
   background-color: #161616;
@@ -163,10 +170,41 @@
   margin: 0;
 }
 
+@media screen and (max-width: 900px) {
+  .languages {
+    position: relative;
+    text-align: center;
+  }
+  .header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header-comment {
+    text-align: center;
+    margin: 0 20px 10px 0;
+    color: #606060;
+  }
+}
+@media screen and (min-width: 900px) {
+  .languages {
+    position: absolute;
+    display: flex;
+    margin: 35px;
+    padding: 5px;
+  }
+}
 @media screen and (max-width: 430px) {
   .header-comment {
     margin: 0 20px 10px 0;
     color: #606060;
+  }
+  .header .header-nav-bar {
+    flex-wrap: wrap;
+  }
+  .header .header-nav-bar-link {
+    padding: 0 35px 0 35px;
+    margin: 5px auto;
   }
 }
 @media screen and (max-width: 380px) {
@@ -202,4 +240,55 @@
 main {
   width: 100vw;
   height: 80vh;
+}
+
+.language {
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #161616;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  color: #161616;
+  font-family: "Roboto Slab";
+  text-decoration: none;
+  color: #161616;
+}
+.language:hover {
+  background-color: #606060;
+  border: 1px solid #606060;
+  color: #ddd;
+  transition: 0s;
+}
+.language:hover > * {
+  background-color: #606060;
+  transition: 0s;
+}
+.language p {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.ptbr:hover,
+.ptbr.active {
+  background-color: rgba(3, 87, 3, 0.7450980392);
+  border: 1px solid rgba(3, 87, 3, 0.7450980392);
+  color: #d9ff00;
+  transition: 0s;
+}
+.ptbr:hover > *,
+.ptbr.active > * {
+  background-color: #d9ff00;
+  transition: 0s;
+}
+
+.eng:hover,
+.eng.active {
+  background-color: #6d4566;
+  border: 1px solid #6d4566;
+  color: #ffffff;
+  transition: 0s;
 }/*# sourceMappingURL=main.css.map */
