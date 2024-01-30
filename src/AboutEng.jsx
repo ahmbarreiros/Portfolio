@@ -15,7 +15,7 @@ const About = () => {
             <p className="about-me">
                 <span className="about-me-type">char</span>*{" "}
                 <span className="about-me-variable">MyDescription</span> = "I am
-                a fullstack developer, currently studying Computer Science at{" "}
+                a developer, currently studying Computer Science at{" "}
                 <a href="" alt="UERJ site">
                     Universidade do Estado do Rio de Janeiro (UERJ)
                 </a>
@@ -23,10 +23,12 @@ const About = () => {
                 <br></br>I also have a technical degree in Administration at
                 CEPAMTF.
                 <br></br>
-                My knowledge crosses from web technologies to databases, game
-                development, low-level programming and some digital forensics.
+                My knowledge crosses from web technologies to databases, data
+                analysis, game development and low-level programming. I'm always
+                trying to learn something new!
                 <br></br>
-                My favorite language is C, but I know other languages too!
+                I'm more proficient with Python and C, but I know other
+                languages too!
                 <br></br>I am currently looking for an internship or
                 junior/trainee software developer roles!"
             </p>
